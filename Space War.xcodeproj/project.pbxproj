@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AB19C60E1AA91E8500AD587E /* RKBoss.m in Sources */ = {isa = PBXBuildFile; fileRef = AB19C60D1AA91E8500AD587E /* RKBoss.m */; };
 		AB5AE9AD1AA53809007E84FB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AB5AE9AC1AA53809007E84FB /* main.m */; };
 		AB5AE9B01AA53809007E84FB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AB5AE9AF1AA53809007E84FB /* AppDelegate.m */; };
 		AB5AE9B31AA53809007E84FB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB5AE9B21AA53809007E84FB /* ViewController.m */; };
@@ -14,6 +15,11 @@
 		AB5AE9B81AA53809007E84FB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB5AE9B71AA53809007E84FB /* Images.xcassets */; };
 		AB5AE9BB1AA53809007E84FB /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = AB5AE9B91AA53809007E84FB /* LaunchScreen.xib */; };
 		AB5AE9C71AA53809007E84FB /* Space_WarTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AB5AE9C61AA53809007E84FB /* Space_WarTests.m */; };
+		ABBD875E1AA801CA0056DDD3 /* RKTile.m in Sources */ = {isa = PBXBuildFile; fileRef = ABBD875D1AA801CA0056DDD3 /* RKTile.m */; };
+		ABBD87631AA802CB0056DDD3 /* RKFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = ABBD87621AA802CB0056DDD3 /* RKFactory.m */; };
+		ABBD87881AA8AF540056DDD3 /* RKWeapon.m in Sources */ = {isa = PBXBuildFile; fileRef = ABBD87871AA8AF540056DDD3 /* RKWeapon.m */; };
+		ABBD878B1AA8B0200056DDD3 /* RKArmor.m in Sources */ = {isa = PBXBuildFile; fileRef = ABBD878A1AA8B0200056DDD3 /* RKArmor.m */; };
+		ABBD878E1AA8B3B10056DDD3 /* RKCharacter.m in Sources */ = {isa = PBXBuildFile; fileRef = ABBD878D1AA8B3B10056DDD3 /* RKCharacter.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +33,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		AB19C60C1AA91E8500AD587E /* RKBoss.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RKBoss.h; sourceTree = "<group>"; };
+		AB19C60D1AA91E8500AD587E /* RKBoss.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RKBoss.m; sourceTree = "<group>"; };
 		AB5AE9A71AA53809007E84FB /* Space War.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Space War.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB5AE9AB1AA53809007E84FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AB5AE9AC1AA53809007E84FB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -40,6 +48,16 @@
 		AB5AE9C01AA53809007E84FB /* Space WarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Space WarTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB5AE9C51AA53809007E84FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AB5AE9C61AA53809007E84FB /* Space_WarTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Space_WarTests.m; sourceTree = "<group>"; };
+		ABBD875C1AA801CA0056DDD3 /* RKTile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RKTile.h; sourceTree = "<group>"; };
+		ABBD875D1AA801CA0056DDD3 /* RKTile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RKTile.m; sourceTree = "<group>"; };
+		ABBD87611AA802CB0056DDD3 /* RKFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RKFactory.h; path = ../RKFactory.h; sourceTree = "<group>"; };
+		ABBD87621AA802CB0056DDD3 /* RKFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RKFactory.m; path = ../RKFactory.m; sourceTree = "<group>"; };
+		ABBD87861AA8AF540056DDD3 /* RKWeapon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RKWeapon.h; sourceTree = "<group>"; };
+		ABBD87871AA8AF540056DDD3 /* RKWeapon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RKWeapon.m; sourceTree = "<group>"; };
+		ABBD87891AA8B0200056DDD3 /* RKArmor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RKArmor.h; sourceTree = "<group>"; };
+		ABBD878A1AA8B0200056DDD3 /* RKArmor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RKArmor.m; sourceTree = "<group>"; };
+		ABBD878C1AA8B3B10056DDD3 /* RKCharacter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RKCharacter.h; sourceTree = "<group>"; };
+		ABBD878D1AA8B3B10056DDD3 /* RKCharacter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RKCharacter.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,9 +101,10 @@
 			children = (
 				AB5AE9AE1AA53809007E84FB /* AppDelegate.h */,
 				AB5AE9AF1AA53809007E84FB /* AppDelegate.m */,
+				AB5AE9B41AA53809007E84FB /* Main.storyboard */,
 				AB5AE9B11AA53809007E84FB /* ViewController.h */,
 				AB5AE9B21AA53809007E84FB /* ViewController.m */,
-				AB5AE9B41AA53809007E84FB /* Main.storyboard */,
+				ABBD875B1AA801AD0056DDD3 /* Model */,
 				AB5AE9B71AA53809007E84FB /* Images.xcassets */,
 				AB5AE9B91AA53809007E84FB /* LaunchScreen.xib */,
 				AB5AE9AA1AA53809007E84FB /* Supporting Files */,
@@ -96,6 +115,7 @@
 		AB5AE9AA1AA53809007E84FB /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				ABBD87651AA80EFE0056DDD3 /* ImagesForBackground */,
 				AB5AE9AB1AA53809007E84FB /* Info.plist */,
 				AB5AE9AC1AA53809007E84FB /* main.m */,
 			);
@@ -117,6 +137,40 @@
 				AB5AE9C51AA53809007E84FB /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		ABBD875B1AA801AD0056DDD3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				ABBD87641AA802D50056DDD3 /* Factory */,
+				ABBD875C1AA801CA0056DDD3 /* RKTile.h */,
+				ABBD875D1AA801CA0056DDD3 /* RKTile.m */,
+				ABBD87861AA8AF540056DDD3 /* RKWeapon.h */,
+				ABBD87871AA8AF540056DDD3 /* RKWeapon.m */,
+				ABBD87891AA8B0200056DDD3 /* RKArmor.h */,
+				ABBD878A1AA8B0200056DDD3 /* RKArmor.m */,
+				ABBD878C1AA8B3B10056DDD3 /* RKCharacter.h */,
+				ABBD878D1AA8B3B10056DDD3 /* RKCharacter.m */,
+				AB19C60C1AA91E8500AD587E /* RKBoss.h */,
+				AB19C60D1AA91E8500AD587E /* RKBoss.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		ABBD87641AA802D50056DDD3 /* Factory */ = {
+			isa = PBXGroup;
+			children = (
+				ABBD87611AA802CB0056DDD3 /* RKFactory.h */,
+				ABBD87621AA802CB0056DDD3 /* RKFactory.m */,
+			);
+			name = Factory;
+			sourceTree = "<group>";
+		};
+		ABBD87651AA80EFE0056DDD3 /* ImagesForBackground */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = ImagesForBackground;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -220,8 +274,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				AB5AE9B31AA53809007E84FB /* ViewController.m in Sources */,
+				ABBD87631AA802CB0056DDD3 /* RKFactory.m in Sources */,
+				ABBD878E1AA8B3B10056DDD3 /* RKCharacter.m in Sources */,
+				ABBD87881AA8AF540056DDD3 /* RKWeapon.m in Sources */,
 				AB5AE9B01AA53809007E84FB /* AppDelegate.m in Sources */,
+				ABBD875E1AA801CA0056DDD3 /* RKTile.m in Sources */,
+				ABBD878B1AA8B0200056DDD3 /* RKArmor.m in Sources */,
 				AB5AE9AD1AA53809007E84FB /* main.m in Sources */,
+				AB19C60E1AA91E8500AD587E /* RKBoss.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -412,6 +472,7 @@
 				AB5AE9CC1AA53809007E84FB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AB5AE9CD1AA53809007E84FB /* Build configuration list for PBXNativeTarget "Space WarTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +481,7 @@
 				AB5AE9CF1AA53809007E84FB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
